@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 
-model = load_model("mnist_ann.h5")
+model = load_model("mnist_ann.keras")
 
 st.title("MNIST Digit Classifier")
 
